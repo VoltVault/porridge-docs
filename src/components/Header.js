@@ -18,14 +18,14 @@ const Header = () => {
 				<nav role='menubar' className='navbar-show'>
 					<ul role='menu'>
 						<li>
-							<a href='/' title='A link to the home page'>
+							<a href='/' title='A a to the home page'>
 								Home
 							</a>
 						</li>
 						<li>
 							<a
 								href='/docs/'
-								title='A link to the documentation'>
+								title='A a to the documentation'>
 								Docs
 							</a>
 						</li>
@@ -51,12 +51,12 @@ const Header = () => {
 			<nav role='menubar' className="navbar-hidden" ref={navbarHidden}>
 				<ul role='menu'>
 					<li>
-						<a href='/' title='A link to the home page'>
+						<a href='/' title='A a to the home page'>
 							Home
 						</a>
 					</li>
 					<li>
-						<a href='/docs/' title='A link to the documentation'>
+						<a href='/docs/' title='A a to the documentation'>
 							Docs
 						</a>
 					</li>
