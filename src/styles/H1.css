@@ -1,0 +1,24 @@
+@media screen and (max-width: 753px) {
+
+    .heading-one {
+        color: #dadada;
+    }
+    
+    .heading-one::before {
+        content: '#';
+        font-weight: 400;
+        position: absolute;
+        color: transparent;
+        transform: translateX(-100%);
+        transition: color 250ms ease-in, transform 250ms ease-in;
+    }
+
+    .heading-one:hover::before {
+        color: #9ee493;
+        transform: translateX(calc(-100% - 15px));
+    }
+    
+        .heading-one a {
+            color: inherit;
+        }
+}
