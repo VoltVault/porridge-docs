@@ -13,8 +13,8 @@ const App = () => {
 			<Routes>
           <Route path='/' element={<Main />} />
           <Route path='/docs' element={<Doc />} />
+          <Route path='/docs/*' element={<Doc />} />
           <Route path='/*' element={<Error404 />} />
-          <Route path='/docs/*' element={<DocError404 />} />
 			</Routes>
 		</Router>
   );
